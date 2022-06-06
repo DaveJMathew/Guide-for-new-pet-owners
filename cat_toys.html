@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Cat Toys</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body class="page-overview">
+        <header>
+            <!-- Top Navigation Bar-->
+            <nav id="main-menu">
+                <!--Web page Icon Icon -->
+                <a href="index.html" id="icon">
+                    <img id = "icon-image" src = "images/icon.jpg", alt="icon-image">
+                </a>
+                <ul>
+                    <!--Home Page Tab-->
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <!--Cats Tab-->
+                    <li class="current">
+                            <a href="cat_reasons.html" onmouseover="display_dropdown()" 
+                            onmouseup="hide_dropdown()">Cat</a>
+                    </li>
+                    <li>
+                        <!--Dog Tab-->
+                        <a href="dog.html">Dog</a>
+                    </li>
+                </ul>
+                <!--Cat Tab Subsections-->
+                <div id="dropdown-content" onmouseleave="hide_dropdown()">
+                    <a href="cat_reasons.html">Reasons to Own a Cat</a>
+                    <a href="cat_breeds.html">Cat Breeds</a>
+                    <a href="cat_food.html">Cat Food</a>
+                    <a href="cat_toys.html">Cat Toys</a>
+                    <a href="cat_litter.html">Cat Litter</a>
+                </div>
+            </nav>
+        </header>
+        <!--Page Main Image-->
+        <section class = "page-image">
+            <img src="images/cat-toys.jpg" alt="cat toy">
+        </section>
+        <!--Page Title-->
+        <section class = "page-intro">
+            <h1>Cat Toys</h1>
+            <div>
+                <!--Page Introduction-->
+            <article class = "page-article">
+                <p>
+                    There are numerous aspects that influence a toy's safety or danger. 
+                    However, many of those elements are entirely dependant on your cat's size, 
+                    activity level, and personal preferences. The environment in which your cat 
+                    spends their time is another aspect to consider. Although you cannot guarantee
+                    your cat's enjoyment or safety with any particular toy, you might be able 
+                    to make use of the following suggestions.
+                </p>
+                <!--Toy List-->
+                <dl class="page-list">
+                    <dt> 
+                        Active toys
+                        <dd>
+                            Plastic rolling balls, with or without bells inside, empty cardboard rolls
+                            from toilet paper and paper towels and sisal-wrapped toys are very attractive
+                            to cats that tend to ignore soft toys.
+                            <br>
+                            Pouncing, concealing, and interactive play can all be done with paper bags. 
+                            They're a good distraction if you need your cat to focus on anything else. 
+                            Plastic bags are not a good idea because many cats enjoy chewing and ingesting them.
+                        </dd>
+                    </dt>
+                    <dt> 
+                        Comfort Toys
+                        <dd>
+                            Stuffed animals are useful for a variety of reasons. The stuffed animal for certain 
+                            cats should be small enough to transport. The stuffed animal should be around the
+                            same size as the cat if the cat wants to "kill" the toy. Toys with legs and a tail 
+                            appear to appeal to cats much more.
+                        </dd>
+                    </dt>
+                    <dt>Reuse Toys
+                        <dd>
+                            Make only four or five toys available at a time to rotate your cat's toys on a weekly
+                            basis. Keep a range of sorts close at hand. If your cat has a big favourite, such as
+                            a soft "baby" they like to cuddle with, you should usually keep it out all the time 
+                            or risk their anger! Provide toys with several functions, for as one to carry, one to 
+                            "kill," one to roll, and one to baby.
+
+                            Hide and Seek is a fun game to play with your kitties. Found toys are frequently more 
+                            appealing than toys that have been openly offered.
+                        </dd>
+                    </dt>
+                </dl>
+            </article>
+            </div>
+        </section>
+        <!--Page Buttons-->
+        <div class="buttons">
+            <button onclick="location.href = 'cat_food.html'" class="button"> Previous</button>
+            <button onclick="location.href = 'cat_litter.html'" class="button"> Next</button>
+        </div>
+        <footer>
+            <!--Footer Bottom Navigation-->
+            <nav id="footer-menu">
+                <ul>
+                    <li>
+                        <a href="index.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="cat_homepage.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="references.html">References</a>
+                    </li>
+                </ul>
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>

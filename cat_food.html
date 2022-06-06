@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Cat Food</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body class="page-overview">
+        <header>
+            <!-- Top Navigation Bar-->
+            <nav id="main-menu">
+                <!--Web page Icon Icon -->
+                <a href="index.html" id="icon">
+                    <img id = "icon-image" src = "images/icon.jpg", alt="icon-image">
+                </a>
+                <ul>
+                    <!--Home Page Tab-->
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <!--Cats Tab-->
+                    <li class="current">
+                            <a href="cat_reasons.html" onmouseover="display_dropdown()" 
+                            onmouseup="hide_dropdown()">Cat</a>
+                    </li>
+                    <li>
+                        <!--Dog Tab-->
+                        <a href="dog.html">Dog</a>
+                    </li>
+                </ul>
+                <!--Cat Tab Subsections-->
+                <div id="dropdown-content" onmouseleave="hide_dropdown()">
+                    <a href="cat_reasons.html">Reasons to Own a Cat</a>
+                    <a href="cat_breeds.html">Cat Breeds</a>
+                    <a href="cat_food.html">Cat Food</a>
+                    <a href="cat_toys.html">Cat Toys</a>
+                    <a href="cat_litter.html">Cat Litter</a>
+                </div>
+            </nav>
+        </header>
+        <!--Page Main Image-->
+        <section class = "page-image">
+            <img src="images/cat-food.jpg" alt="Cat Food">
+        </section>
+        <!--Page Title-->
+        <section class = "page-intro">
+            <h1>Cat Food</h1>
+            <div>
+                <!--Page Introduction-->
+            <article class = "page-article">
+                <p>Cat food, along with veterinarian care, can be one of the most costly aspects of 
+                    feline parenting. A healthy diet can help you avoid or postpone veterinarian bills 
+                    for medical issues.
+                    Cats are obligate carnivores, which means they cannot survive without animal protein. 
+                    Although corn, wheat, and rice are used as fillers in many canned and dried cat meals, 
+                    cats do not require carbs.
+                </p>
+                <br>
+                <p> So what type of food should you get?</p>
+                <br>
+                <br>
+                <p>Two are primarily two types of cat food: Canned food and Kibble</p>
+                <!--Food Images-->
+                <section class="portaits-section">
+                    <div class = "portraits">                   
+                        <img src="images/kibble.png" alt="Cat">          
+                         <img src="images/wet-food.jpg" alt="Dog">
+                        </div> 
+                        <div class="portrait-name">
+                            <p>Dry Food</p>
+                            <p>Wet Food</p>
+                        </div>
+                    </section>
+
+                <p>For numerous reasons, many dietitians agree that cats should be fed a variety 
+                    of dry and canned foods.</p>
+                    <!--Food List-->
+                    <dl class="page-list">
+                        <dt>
+                            Cats are thirsty
+                            <dd>
+                                While dry food is easy and may be left out for "free feeding," 
+                                canned food is essential since it is primarily made up of water, 
+                                and many cats do not drink water on a regular basis. Cats who solely
+                                eat dry food may be more susceptible to urinary tract illness.   
+                            </dd>
+                        </dt>
+                        <dt>
+                            Don't play favourites
+                            <dd>
+                                You may be getting too little (or too much) of certain minerals and
+                                vitamins from your favourite dish. Your cat will obtain a good balance
+                                of nutrients if you feed them a range of meals.
+                            </dd>
+                        </dt>
+                        <dt>
+                            Repitition is bad
+                            <dd>
+                                Cats may become dissatisfied with the same food on a daily basis and stop eating.
+                                Alternatively, a lack of options can result in a picky cat who becomes addicted 
+                                to a single type of food. A fussy cat could even grow hooked to a particular taste
+                                and brand of cat food. This type of addiction is difficult to break, but it can be 
+                                avoided by providing your cat with a variety of foods from the beginning. 
+                            </dd>
+                        </dt>
+                        <dt>
+                            Care for allergies
+                            <dd>
+                                Cats can get allergies, albeit they are uncommon. Providing a range of diets for 
+                                your pet can help prevent allergies to certain ingredients. 
+                            </dd>
+                        </dt>
+                        </dl>
+            </article>
+            </div>
+        </section>
+        <!--Quiz Game-->
+        <section class="quiz">
+            <em>Pop Quiz Question!</em>
+            <form id="food-quiz">
+                What filler food can be used instead of proteins?: <input type="text" name="food"><br>
+                <input type="button" class="button" id="quiz-button"onclick="quiz()" value="submit">
+              </form>
+        </section>
+        <!--Page Buttons-->
+        <div class="buttons">
+            <button onclick="location.href = 'cat_breeds.html'"class="button"> Previous</button>
+            <button onclick="location.href = 'cat_toys.html'" class="button"> Next</button>
+        </div>
+        <footer>
+            <!--Bottom Footer Navigation-->
+            <nav id="footer-menu">
+                <ul>
+                    <li>
+                        <a href="index.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="cat_homepage.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="references.html">References</a>
+                    </li>
+                </ul>
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Cat Breeds</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body class="page-overview">
+        <header>
+            <!-- Top Navigation Bar-->
+            <nav id="main-menu">
+                <!--Web page Icon Icon -->
+                <a href="index.html" id="icon">
+                    <img id = "icon-image" src = "images/icon.jpg", alt="icon-image">
+                </a>
+                <ul>
+                    <!--Home Page Tab-->
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <!--Cats Tab-->
+                    <li class="current">
+                            <a href="cat_reasons.html" onmouseover="display_dropdown()" 
+                            onmouseup="hide_dropdown()">Cat</a>
+                    </li>
+                    <li>
+                        <!--Dog Tab-->
+                        <a href="dog.html">Dog</a>
+                    </li>
+                </ul>
+                <!--Cat Tab Subsections-->
+                <div id="dropdown-content" onmouseleave="hide_dropdown()">
+                    <a href="cat_reasons.html">Reasons to Own a Cat</a>
+                    <a href="cat_breeds.html">Cat Breeds</a>
+                    <a href="cat_food.html">Cat Food</a>
+                    <a href="cat_toys.html">Cat Toys</a>
+                    <a href="cat_litter.html">Cat Litter</a>
+                </div>
+            </nav>
+        </header>
+        <!--Page Title-->
+        <section class = "page-intro">
+            <h1>Cat Breeds</h1>
+            <article class = "page-article-breed">
+                <!-- Cat Breeds Pictures-->
+                <section class="breeds-name">
+                <button onclick="prevBreed()" class="button">&lt</button>
+                <img id = "Tabby-image" src="images/Tabby.jpg" alt="Tabby Cat" style="display:flex">
+                <img id = "Siberian-image" src="images/Siberian.jpg" alt="Siberian Cat">
+                <img id = "British-Shorthair-image" src="images/British-Shorthair.jpg" alt="British Shorthair Cat">
+                <img id = "Persian-image" src="images/Persian.jpg" alt="Persian Cat">
+                <img id = "Siamese-image" src="images/Siamese.jpg" alt="Siamese Cat">
+                <img id = "Ragdoll-image" src="images/Ragdoll.jpg" alt="Ragdoll Cat">
+                <button onclick="nextBreed()" class="button">&gt</button>
+                </section>
+                <!--Cat Breeds Information-->
+                <section class="breeds-info">
+                    <section id = "Tabby-info" style="display:inline-block">
+                        <p>Tabby</p>
+                        <article>
+                            Tabbies are noted for their stripes, swirls, and dots, which come in an almost
+                            unlimited variety of colours and patterns. Their coats feature a single main
+                            hue with brown and black colour stripes. Brown mackerel markings are the most
+                            common.
+                            Tabbies are easily distinguished by their gentle demeanour and the fabled 
+                            capital 'M' on their furry brow.
+                            
+                            Every sort of family, even those with children and other pets, can find a 
+                            tabby.
+                        </article>
+                    </section>
+                    <section id = "Siberian-info">
+                        <p>Siberian</p>
+                        <article>
+                            Siberian cats are native to Siberia, a region of Russia noted for its long, 
+                            severe winters, as their name suggests. Their lengthy, waterproof triple coat 
+                            and powerful bodies reflect their rugged beginnings.
+
+                            The personalities of these alert, well-built cats are kittenish. This breed is 
+                            affectionate and enjoys cuddling. Siberians are dedicated to their pet parents 
+                            and get along well with children and other animals in general.
+                        </article>
+                    </section>
+                    <section id = "British-Shorthair-info">
+                        <p>British-Shorthair</p>
+                        <article>
+                            The British shorthair is one of the most popular cat breeds in the world. 
+                            They have a thick, fluffy short coat as well as a cheerful, no-nonsense
+                            sensibility towards life. British shorthairs make excellent family cats and 
+                            enjoy spending time with their owners, however they may frown upon being 
+                            handled or cuddled excessively.
+
+                            The original British shorthair is coated in blue fur, but this lovely breed 
+                            comes in a range of hues and patterns. The nice factor is that this medium-to-large 
+                            cat has hardly any health issues.
+                        </article>
+                    </section>
+                    <section id = "Persian-info">
+                        <p>Persian</p>
+                        <article>
+                            Persian cats have been snuggling up with their owners since the 1600s, making 
+                            them one of the most well-known and adored cat breeds on the planet. It's 
+                            difficult to resist the allure of a Persian with their long, flowing coats, 
+                            heavy bodies, and flat faces.
+
+                            Persian cats are a medium-sized breed that takes their position as a loving 
+                            companion very seriously, and they're always willing to be petted and fussed 
+                            over at any time. When introduced as kittens, this lovely feline comes in a 
+                            range of colours and colour combinations, and they get along with all 
+                            family members (including other furry ones). You won't find a more 
+                            affectionate friend if you're prepared to put in a little effort with grooming
+                        </article>
+                    </section>
+                    <section id = "Siamese-info">
+                        <p>Siamese</p>
+                        <article>
+                            The Siamese cat is a beautiful, intelligent feline with a pleasant personality
+                            who attracts people wherever they goes. These cats are recognised for being "dog-like"
+                            and for requiring a lot of attention—human companionship is something this breed craves.
+
+                            Siamese kittens are a popular breed . The Cat Fanciers' Association ranked the Siamese 
+                            as the 13th most popular cat breed. It's easy to see why they're so popular, given their 
+                            warm nature.
+                        </article>
+                    </section>
+                    <section id = "Ragdoll-info">
+                        <p>Ragdoll</p>
+                        <article>
+                            Ragdolls are big, affectionate cats with a lot of patience and gentleness. Despite their size,
+                            these cats are a placid and quiet breed that enjoys nothing more than playing and cuddling with
+                            their owners.
+
+                            This breed is known for being easy to care for and extremely social. They make wonderful family 
+                            pets and get along with kids. If you give this fluffy feline your time and attention, they will 
+                            repay you with eternal loyalty and affection.
+                        </article>
+                    </section>
+                </section>
+             </article>
+        </section>
+        <!-- Guessing Game-->
+        <section class="game">
+            <em>Think you're confident on you cat breed knowledge? Click the button below to play a guessing game</em>
+            <!--Guess Game Button-->
+            <div id="start-button">
+                <button onclick="startGame()" class="button" id="game-button"> Press to start game</button>
+            </div>
+            <!--Game Images-->
+            <section id="show-game">
+                <div id="game-guess-box">
+                    <h1 id="game-question">Cat Breed</h1>
+                </div>
+                <section class = "game-portraits">
+                    <div id="first row">
+                    <img id = "Tabby" onclick="checkPortrait(this.id)" src="images/Tabby.jpg" alt="Cat">
+             
+                    <img id = "Siberian" onclick="checkPortrait(this.id)" src="images/Siberian.jpg" alt="Cat">
+            
+                    <img id = "British-Shorthair" onclick="checkPortrait(this.id)" src="images/British-Shorthair.jpg" alt="Cat">
+                    </div>
+                    <div id="second-row">
+                    <img id = "Persian" onclick="checkPortrait(this.id)" src="images/Persian.jpg" alt="Cat">
+
+                    <img id = "Siamese" onclick="checkPortrait(this.id)" src="images/Siamese.jpg" alt="Cat">
+
+                    <img id = "Ragdoll" onclick="checkPortrait(this.id)" src="images/Ragdoll.jpg" alt="Cat">
+                    </div>
+                </section>
+            </section>
+        </section>
+        <!--Page Buttons-->
+        <div class="buttons">
+            <button onclick="location.href = 'cat_reasons.html'" class="button"> Previous</button>
+            <button onclick="location.href = 'cat_food.html'" class="button"> Next</button>
+        </div>
+        <footer>
+            <!--Bottom Navigation Menu-->
+            <nav id="footer-menu">
+                <ul>
+                    <li>
+                        <a href="index.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="cat_homepage.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="references.html">References</a>
+                    </li>
+                </ul>
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>

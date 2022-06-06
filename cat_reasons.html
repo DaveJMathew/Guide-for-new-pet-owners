@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Cat Food</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body class="page-overview">
+        <header>
+            <!-- Top Navigation Bar-->
+            <nav id="main-menu">
+                <!--Web page Icon Icon -->
+                <a href="index.html" id="icon">
+                    <img id = "icon-image" src = "images/icon.jpg", alt="icon-image">
+                </a>
+                <ul>
+                    <!--Home Page Tab-->
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <!--Cats Tab-->
+                    <li class="current">
+                            <a href="cat_reasons.html" onmouseover="display_dropdown()" 
+                            onmouseup="hide_dropdown()">Cat</a>
+                    </li>
+                    <li>
+                        <!--Dog Tab-->
+                        <a href="dog.html">Dog</a>
+                    </li>
+                </ul>
+                <!--Cat Tab Subsections-->
+                <div id="dropdown-content" onmouseleave="hide_dropdown()">
+                    <a href="cat_reasons.html">Reasons to Own a Cat</a>
+                    <a href="cat_breeds.html">Cat Breeds</a>
+                    <a href="cat_food.html">Cat Food</a>
+                    <a href="cat_toys.html">Cat Toys</a>
+                    <a href="cat_litter.html">Cat Litter</a>
+                </div>
+            </nav>
+        </header>
+        <!--Page Main Image-->
+        <section class = "page-image">
+            <img src="images/cat-reasons.jpg" alt="Cat">
+        </section>
+        <section class = "page-intro">
+            <!-- Introdction to Cat Reasons-->
+            <h1>Reasons To Own A Cat</h1>
+            <p>Cats are one of the most wonderful pets you can have. If you're unsure about 
+                taking on the responsibility of owning a pet, consider the advantages of having 
+                a cat. A cat's purr can melt your heart since they are lovely, quiet, and 
+                independent. The following are the top five reasons to get a cat.</p>
+            <div>
+            <article class = "page-article">
+                <!-- Cat Reasons List-->
+                <dl class = "page-list">
+                    <dt class="page-list-items">
+                        1. Cats love independence
+                        <dd>
+
+                            If you don't think you have the time or energy to care for a pet, 
+                            a cat might be the answer. Taking care of a cat takes less effort 
+                            than caring for other animals. Those who work full-time can relax knowing 
+                            that their cat can look after itself for the most part. When you do have some 
+                            spare time, cuddling up with your cat will feel much better.
+                        </dd>
+                    </dt>
+                    <dt>
+                        2. Cats are all about being clean
+                        <dd>
+                            Cats are remarkably clean almost all of the time. 
+                            That means you'll never have to take time out of your day to bathe 
+                            and groom your cat.
+                        </dd>
+                    </dt>
+                    <dt>
+                        3. Cats are natural predators
+                        <dd>
+                            If you don't like rats, chipmunks, voles, or mice in your house, getting 
+                            a cat will solve that problem straight away.To make you proud, your cat
+                            might even bring you its trophy!
+                        </dd>
+                    </dt>
+                    <dt>
+                        4. Cats voted for the Greens
+                        <dd>
+                            Living a "green" lifestyle might be challenging, but a cat is an excellent
+                            choice for eco-conscious pet owners. According to studies, the resources
+                            required to feed and care for a cat have a lower carbon footprint than 
+                            those required for other animals. Furthermore, most cats prefer fish to 
+                            beef because it is healthier for them. You can be proud of your feline
+                            companion.
+                        </dd>
+                    </dt>
+                    <dt>
+                        5. Cats are perfect de-stressors
+                        <dd>
+                            We're all stressed out at times, and people have a variety of coping 
+                            mechanisms. Cat owners can de-stress by just petting their feline 
+                            companion's head. Petting a cat causes your brain to release endorphins,
+                            which helps you feel better. Cats' fur is also the softest!
+                        </dd>
+                    </dt>
+                </dl>
+            </article>
+            </div>
+        </section>
+        <!--Page Buttons-->
+        <div class="buttons" style="justify-content: flex-end;">
+            <button onclick="location.href = 'cat_breeds.html'" class="button" > Next</button>
+        </div>
+        <footer>
+            <!--Bottom Navigation Menu-->
+            <nav id="footer-menu">
+                <ul>
+                    <li>
+                        <a href="index.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="cat_homepage.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="references.html">References</a>
+                    </li>
+                </ul>
+
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>
