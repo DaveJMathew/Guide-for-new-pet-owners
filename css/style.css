@@ -1,0 +1,344 @@
+/* Color
+Lavender : #E6E6FA
+Violet: #EE82EE
+Plum : 	#DDA0DD
+Blue: #187bcd
+*/
+
+/*Adjust Webpage for mobile screens*/
+.column {
+    width: 100%;
+  }
+  
+  @media (min-width: 600px) {
+    .column {
+      width: 50%;
+    }
+  }
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	background: 	#E6E6FA;
+	color: black;
+}
+
+/* Top Navigation Main Menu */
+
+#main-menu {
+	background-color: rgb(255, 255, 255);
+    height: 100px;
+
+}
+
+/* Icon*/
+#icon-image{
+    margin:10px;
+    width: 50px;
+    height: 70px;
+    float: left;
+}
+#icon:hover {
+    background: white !important;
+}
+/* Top Navigation Elements*/
+#main-menu ul {
+	padding: 0.5em 0;
+	text-align: center;
+}
+
+
+#main-menu li {
+	list-style: none;
+	padding: 0.1em 0.5em;
+    display: inline-block;
+}
+
+#main-menu a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	padding: 0.25em 1em;
+	text-transform: uppercase;
+	border-radius: 3px;
+	text-shadow: rgba(0,0,0,0.5) 0 1px 0;
+    font-size: 20px;
+}
+
+#main-menu a:hover {
+	background: #DDA0DD;
+}
+
+/* Current Page*/
+#main-menu li.current a {
+	background: 	#EE82EE;
+	color: rgb(255, 255, 255);
+	text-shadow: none;
+}
+/*Top Navigation sub elements*/
+#dropdown-content{
+        display:none;
+        justify-content: center;
+        font-size: 16px;  
+        color: rgb(0, 0, 0);
+        background-color: white;
+        text-align: center;
+}
+
+/*Main Page Image*/
+.page-image{
+        display: flex;
+        margin:10px;
+        justify-content: space-around;
+}
+
+.page-image>img{
+    width: 400px;
+    height: 250px;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.page-intro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.page-intro>h1{
+    margin: 5px;
+    margin-bottom: 30px;
+}
+
+/*Cat Portrait Images*/
+.portraits{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portraits>a>img{
+    width: 200px;
+    height: 150px;
+    border: 5px solid rgb(255, 255, 255);
+    margin: 30px;
+    opacity: 0.7;
+}
+.portraits>a>img:hover{
+    opacity: 1;
+}
+.portraits>img{
+    width: 200px;
+    height: 150px;
+    border: 5px solid rgb(255, 255, 255);
+    margin: 30px;
+    background-color: white;
+}
+.portrait-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.portrait-name>p {
+    margin: 0px 130px;
+    font-size: large;
+    font-weight: bold;
+}
+/*Bottom footer navigation bar*/
+#footer-menu {
+	background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
+
+#footer-menu ul {
+	padding: 0.5em 0;
+	text-align: center;
+}
+
+
+#footer-menu li {
+	list-style: none;
+	padding: 0.1em 0.5em;
+    display: inline-block;
+}
+
+#footer-menu a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	padding: 0.25em 1em;
+	text-transform: uppercase;
+	border-radius: 3px;
+	text-shadow: rgba(0,0,0,0.5) 0 1px 0;
+    font-size: 20px;
+}
+
+#footer-menu a:hover {
+	background: 	#DDA0DD;
+}
+
+#footer-menu li.current a {
+	background: #EE82EE;
+	color: rgb(255, 255, 255);
+	text-shadow: none;
+}
+
+/*Page Main Article*/
+.page-article{
+    display: block;
+    justify-content: center;
+}
+/*Index page main article*/
+#page-article-index{
+    text-align: center;
+}
+
+/*Page Buttons*/
+.button {
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  .buttons{
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .button:hover{
+     background-color: #DDA0DD;
+  }
+
+  /*Submit Quiz Button*/
+  #quiz-button{
+      text-transform: capitalize;
+      font-style: oblique;
+      margin-top: 5px;
+      background-color: #187bcd;
+      opacity: 0.8;
+  }
+  #quiz-button:hover{
+    opacity: 1;
+}
+
+
+  /*Cat breed article*/
+    .page-article-breed{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+  /*Cat Breed game images*/
+  .game-portraits{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .game-portraits>div>img{
+    width: 200px;
+    height: 170px;
+    border: 5px solid rgb(255, 255, 255);
+    margin: 50px;
+    box-shadow: 0 0 10px black;
+}
+
+/*Guess game button*/
+#start-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.game>em{
+    padding: 30px;
+}
+
+#show-game{
+    display: none;
+}
+#game-button{
+    opacity: 0.5;
+}
+#game-button:hover{
+    opacity: 1;
+    background-color: #187bcd;
+}
+#game-guess-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#game-question{
+    margin: 20px;
+}
+
+/*Quiz*/
+.quiz{
+    margin: 10px;
+    margin-top: 50px;
+}
+.quiz>em{
+    font-size: 20px;
+}
+
+/*Cat Breed Information*/
+.breeds-name{
+    display: flex;
+    align-items: center;
+}
+.breeds-name>button{
+    width: 50px;
+    height: 50px;
+}
+.breeds-name>img{
+    display: none;
+    width: 400px;
+    height: 250px;
+    border: 5px solid rgb(255, 255, 255);
+}
+.breeds-info{
+    display: flex;
+    flex: content;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+.breeds-info>section{
+    display: none;
+}
+.breeds-info>section>p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: #7B68EE;
+    margin: 20px;
+}
+
+/*Page lists*/
+.page-list>dt{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: #7B68EE;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.page-list>dd{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
